@@ -1,0 +1,86 @@
+@import url("navbar.css");
+@import url("hero.css");
+@import url("sections.css");
+@import url("animations.css");
+@import url("responsive.css");
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:Inter,sans-serif;
+
+background:#f6f6fb;
+
+color:#111;
+
+overflow-x:hidden;
+
+}
+
+
+/* ---------- Background ---------- */
+
+.background-grid{
+
+position:fixed;
+
+inset:0;
+
+z-index:-2;
+
+background-image:
+
+radial-gradient(#d7c9ff 1px,transparent 1px);
+
+background-size:26px 26px;
+
+opacity:.55;
+
+}
+
+.background-gradient{
+
+position:fixed;
+
+inset:0;
+
+z-index:-3;
+
+background:
+
+radial-gradient(circle at 15% 20%,
+rgba(126,87,255,.22),
+transparent 35%),
+
+radial-gradient(circle at 90% 75%,
+rgba(180,120,255,.20),
+transparent 40%),
+
+#f6f6fb;
+
+}
+
+section{
+
+padding:140px 9%;
+
+}html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+overflow-x:hidden;
+
+}
